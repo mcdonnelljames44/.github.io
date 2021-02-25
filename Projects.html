@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Home | Portfolio template</title>
+    <meta name="description" content="Page-specific description">
+    <meta name="keywords" content="Page-specific keywords">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="static/images/favicons/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="static/css/screen.min.css">
+    <link rel="stylesheet" href="static/css/custom.min.css">
+    <script src="static/js/head.min.js"></script>
+</head>
+
+<body>
+    <script>
+        progressJs().setOptions({
+            overlayMode: true,
+            theme: 'custom'
+        }).start();
+        if (window.attachEvent) {
+            window.attachEvent('onload', function() {
+                progressJs().end();
+            });
+        } else {
+            if (window.onload) {
+                var curronload = window.onload;
+                var newonload = function() {
+                    curronload();
+                    progressJs().end();
+                };
+                window.onload = newonload;
+            } else {
+                window.onload = function() {
+                    progressJs().end();
+                };
+            }
+        }
+    </script>
+    <!-- Header-->
+    <header class="main-header">
+        <div class="first-nav">
+            <div class="container">
+                <nav class="first-nav__links">
+                    <ul>
+                        <li><a class="is-selected">english</a></li>
+                    </ul>
+                </nav><a class="first-nav__navcontrol icon icon_menu js-navcontrol" href="#">Menu</a></div>
+        </div>
+        <div class="second-nav js-nav">
+            <div class="container"><a class="second-nav__logo"><span>JD</span></a>
+                <nav class="menu">
+                    <ul>
+                        <li><a class="js-link js-anchor is-selected" href="index.html">Home</a></li>
+                        <li><a class="js-link js-anchor" href="#about">About</a></li>
+                        <li><a class="js-link js-anchor" href="#services">Services</a></li>
+                        <li><a class="js-link js-anchor" href="#process">Process</a></li>
+                        <li><a class="js-link js-anchor" href="#">Projects</a></li>
+                        <li><a class="js-link js-anchor" href="#testimonials">Testimonials</a></li>
+                        <li><a class="js-link js-anchor" href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="common-section" id="projects">
+        <header class="common-section__header">
+            <h2>Projects</h2>
+            <p>Donec lorem ante, efficitur ut blandit eu, sollicitudin sed mi</p>
+        </header>
+        <div class="projects-wrap">
+            <div class="grid-container">
+                <div class="projects">
+                    <figure class="projects__item"><img src="images/projects/Profile Pic.jpg">
+                        <figcaption><a class="icon icon_link" href="uploads/media/James McDonnell Resume.pdf" rel=" ">Resume</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/2.jpg" alt="First Website Design">
+                        <figcaption><a class="icon icon_link" href="https://devicefuldesigns.netlify.app/" rel=n o follow>First
+                                Website Designed</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/11.jpg">
+                        <figcaption><a class="icon icon_link" href="https://nucamp-bootsrtap.netlify.app/">Created during School using bootstrap</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/12.jpg" alt="coming soon">
+                        <figcaption><a class="icon icon_link" href="https://nucamp-react.netlify.app/">Created during School using react</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/10.jpg">
+                        <figcaption><a class="icon icon_link" href="https://basic-sales-template.netlify.app/">Basic Sales Template</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/15.jpg">
+                        <figcaption><a class="icon icon_link" href="https://content-creator-template.netlify.app/">Content creator template</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/14.jpg" alt="coming soon">
+                        <figcaption><a class="icon icon_link" href="https://generic-launch-template.netlify.app/">Generic website template</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/16.jpg" alt="Coming Soon">
+                        <figcaption><a class="icon icon_link" href="https://simple-business-template.netlify.app/">Simple business template</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/17.jpg">
+                        <figcaption><a class="icon icon_link" href="https://simple-gallery-template.netlify.app/">Simple gallery template</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/18.jpg">
+                        <figcaption><a class="icon icon_link" href="https://simple-sales-site.netlify.app/">Simple-Sales-Site</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/19.jpg">
+                        <figcaption><a class="icon icon_link" href="https://simple-blog-site.netlify.app/">Simple blog site</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/20.jpg">
+                        <figcaption><a class="icon icon_link" href="https://simple-blog2-template.netlify.app/">Simple blog2-template</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/9.jpg" alt="Coming Soon">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Coming Soon</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/9.jpg" alt="Coming Soon">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Coming Soon</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/9.jpg" alt="Coming Soon">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Coming Soon</a></figcaption>
+                    </figure>
+                    <figure class="projects__item"><img src="images/projects/9.jpg" alt="Coming Soon">
+                        <figcaption><a class="icon icon_link" href="#" rel="nofollow">Coming Soon</a></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="main-footer">
+            <div class="container">
+                <p class="main-footer__copyright"></p><a class="main-footer__gotop icon icon_gotop js-anchor" href="#home">To top!</a>
+                <p class="main-footer__links"></p>
+            </div>
+        </footer>
+        <script src="static/js/body.min.js"></script>
+
+</body>
+
+</html>
