@@ -481,11 +481,11 @@ a:hover {
 
 .first-nav__languages a,
 .first-nav__links a {
-    color: #ecf0f1;
+    color: black;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-style: italic;
     line-height: 40px;
-    border-color: #ecf0f1;
+    border-color: black;
     -webkit-transition: color .5s;
     -o-transition: color .5s;
     transition: color .5s
